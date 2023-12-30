@@ -1,0 +1,411 @@
+@font-face {
+    font-family: domain;
+    src: url(./project3.ttf);
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{ 
+    width: 100%;
+    height: 100%;
+}
+.main{
+    background-color: black;
+    overflow-x: hidden;
+}
+.page1 {
+    background-color:#C6BCB4;
+    height: 130vh;
+    width: 100vw;
+    position: relative;
+    /* overflow-x: hidden; */
+}
+
+.nav{
+    
+    height: 110px;
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.nav h5{
+    font-size: 20px;
+    font-weight: 100;
+
+}
+.nav i{font-size: 20px;}
+
+.elems{
+    /* background-color: red; */
+    height: 430px;
+     display: flex;
+     align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+
+}
+.elem1{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+
+}
+.elem2{
+    width: 35%;
+    height: 100%;
+    /* background-color: blue; */
+    border-left: 1px solid black;
+    padding: 0 30px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+.elem3{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+
+}
+
+/* .elem1 .imgdiv{
+    height: 60% ;
+    width: 100%;
+    overflow: hidden;
+} */
+
+.imgdiv img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.4s;
+    border-radius: 30px;
+}
+
+/* .elem3 .imgdiv{
+    height: 60% ;
+    width: 100%;
+    overflow: hidden;
+} */
+
+.imgdiv:hover img{
+    scale: 1.2;
+}
+
+.elem1 h4{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: domain;
+}
+
+.elem1 h4 span{
+    background-color: red;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-family: domain;
+}
+.elem1 p{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+
+.elem3 h4{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: domain;
+}
+
+.elem3 h4 span{
+    background-color: red;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-family: domain;
+}
+.elem3 p{
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.elem2 h2{
+    font-family: domain;
+    font-size: 70px;
+    
+}
+.elem2 h3{
+    font-family: domain;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.elem2 h6{
+    font-family: domain;
+    font-size: 20px;
+    font-weight: 100;
+}
+.page1 h1{ 
+    
+    margin-top: 3vw;
+    height: 30vw;
+    /* position: absolute; */
+    font-size: 400px;
+    font-weight: 100;
+    font-family: domain;
+    background-color: black;
+    color: #C6BCB4;
+    line-height:600px;
+    width: 96%;
+    margin-left: 2%;
+    /* letter-spacing: -25px; */
+    text-align: center;
+    border-radius: 35px;
+}
+.page2{
+    height: 200vh;
+    width: 100%;
+    background-color: #C6BCB4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 40px;
+
+}
+.page2left{
+    height: 100%;
+    padding-right: 50px;
+    width: 25%;
+    border-right: 1px solid black;
+}
+
+.page2left h2{
+   
+    font-size: 50px;
+    font-family: domain;
+    text-align: center;
+    line-height: 110px;
+    font-weight: 100;
+}
+
+.page2left h2 span{
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.page2left img{
+    height: 50%;
+    width: 90%;
+    object-fit: cover;
+    padding-left: 9%;
+    
+}
+.page2left p{
+    font-size: 34px;
+    font-family: domain;
+    color: black;
+    margin-top: 20px;
+    padding-left: 30px;
+
+}
+
+.page2right{
+    height: 100%;
+    width:70%;
+    padding: 0 50px;
+
+}
+.page2right img{
+    height: 59%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page2right h1{
+    margin-top: 5vw;
+    font-family: domain;
+    font-size: 90px;
+    letter-spacing: -2px;
+    line-height: 150px;
+    font-weight: 100;
+}
+.page3{
+    padding-bottom: 60px;
+    position: relative;
+        height: 45vh;
+        background-color: #C6BCB4 ;
+        
+}
+.page3 h1{
+    
+    font-family: domain;
+    font-size: 200px;
+    width: 52vw;
+    padding: 3px 13px;
+    line-height: 225px;
+    margin-left: 5%;
+    align-items: center;
+    height: 12vw;
+    background-color: rgb(9, 9, 9);
+    color: #C6BCB4;
+   
+}
+.page3 img{
+    width: 25vw;
+    height: 40vh;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    right: 5%;
+    border-radius: 32px;
+    
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C6BCB4;
+}
+
+.page4left{
+    width: 60%;
+    height: 100%;
+    padding: 80px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page4left img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.page4right{
+    width: 35%;
+    height: 100%;
+    background-color: #C6BCB4;
+    padding: 80px 60px;
+    border-left: 1px solid black;
+}
+.page4right p{
+    font-size: 34px;
+    font-family: domain;
+    font-weight: 500;
+    margin-bottom: 50px;
+    line-height: 35px;
+}
+.page4right .goal{
+     height: 240px;
+     width:100% ;
+     border-radius: 50%;
+     background-color: #C6BCB4;
+     border: 1px solid black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: nowrap;
+     overflow: hidden;
+}
+.goal h1{
+    font-size: 80px;
+    font-weight: 100;
+    font-family: domain;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-45%);
+    transition: all ease 0.6s;
+    text-transform: uppercase;
+
+}
+.goal img{
+    transition: all ease 0.6s;
+    height: 60px;
+    width: 50vw;
+    transform: translateX(-120%);
+}
+
+.goal:hover img{
+    transform: translateX(50%);
+}
+.goal:hover h1{
+    transform: translateX(110%);
+}
+.page5{
+    padding: 30px 0px;
+    height: 100px;
+    width: 100%;
+    background-color: #C6BCB4;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+.page5::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+.page5 h1{
+    font-size: 70px;
+    font-family: domain;
+    font-weight: 200;
+  
+   display: inline-block;
+   animation-timing-function: linear;
+   margin-right:20px ;
+   animation-name: scroll;
+   animation-duration: 6s;
+   animation-iteration-count: infinite
+   
+}
+
+.page5 h1 span{
+    font-family: domain;
+    background-color: black;
+    color: #C6BCB4;
+    padding: 0 12px;
+}
+
+
+
+.page6{
+   
+    height: 100px;
+    width: 100%;
+    background-color: #C6BCB4;
+
+}
+
+@keyframes scroll{
+    0%{transform: translateX(0);}
+    100%{transform: translateX(calc(-100% - 24px));}
+}
+
+.page5:hover h1{
+    animation-play-state: paused;
+}
